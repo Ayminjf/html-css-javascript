@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input Attributes</title>
+  <style>
+    body {
+      font-family: Roboto;
+      font-size: 20px;
+    }
+
+    fieldset {
+      width: 30%;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="" autocomplete="off">
+    <fieldset>
+      <legend>HTML Input Attributes</legend>
+      <!-- readonly -->
+      <div>
+
+        <input type="text" value="Persian Gulf" readonly>
+      </div>
+      <!-- disables -->
+      <div>
+        <button type="button" disabled>Click Me</button>
+      </div>
+      <!-- maxlength -->
+      <div>
+        <input type="text" maxlength="10">
+      </div>
+      <!-- min, max -->
+      <div>
+        <input type="number" min="10" max="20">
+      </div>
+      <!-- multiple -->
+      <div>
+        <input type="file" multiple>
+      </div>
+      <!-- placeholder -->
+      <div>
+        <input type="tel" placeholder="phone number">
+      </div>
+      <!-- required -->
+      <div>
+        <input type="text" required>
+      </div>
+      <!-- autofocus -->
+      <div>
+        <input type="text" autofocus>
+      </div>
+    </fieldset>
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+
+</html>
