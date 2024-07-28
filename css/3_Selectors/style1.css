@@ -1,0 +1,35 @@
+/* Element */
+h1 {
+  color: orange;
+}
+
+/* ID */
+#test {
+  color: yellow;
+}
+
+/* Class */
+.caption {
+  color: chartreuse;
+}
+
+.description {
+  color: skyblue;
+}
+
+/* Grooping */
+h4,
+h5 {
+  color: violet;
+}
+
+.title,
+#subject {
+  color: grey;
+}
+
+/* All Elements */
+* {
+  color: white;
+  background-color: #242424;
+}
