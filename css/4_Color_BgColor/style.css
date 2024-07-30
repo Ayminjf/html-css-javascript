@@ -1,0 +1,14 @@
+.title {
+  color: blueviolet;
+  background-color: pink;
+}
+
+.description {
+  color: rgb(255, 153, 0);
+  background-color: rgb(255, 255, 0);
+}
+
+.category {
+  color: #0000ff;
+  background-color: #87ceeb;
+}
